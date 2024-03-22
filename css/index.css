@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /*Define a fonte das encritas*/
+*{ 
+    margin : 0; /*Define a area de margem em volta da tela*/
+    padding: 0; /*Define uma distancia entre um elemento e as suas bordas*/
+}
+
+body{
+    height: 100vh; /*Vh é V = view, H = height, alturaa da tela dos dispositivos*/
+    width: 100vw; /*V = view, largura da tela dos dispositivos*/
+
+    display: flex; /* indicar a forma como os elementos no HTML ,dispostos em espaços delimitados*/
+    flex-direction: column; /*define como os itens flexíveis são colocados no contêiner flexível,
+definindo o eixo principal e a direção (normal ou invertido)*/
+}
+
+header{
+    height: 90px; /*Altura*/
+    background:#05072F;
+}
+
+header nav{
+    font-family: Montserrat;
+    font-size: 15px;
+    height: 100%; /*Altura*/
+    display: flex; /*é utilizada para indicar a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    color: #FFFFFF; /* cor do texto branca*/
+    align-items: center; /*centraliza o item na vertical*/
+    margin-left: 25px; /*define a margem direita (distância do elemento para o elemento conseguinte)*/
+    gap: 20px; /*Espaçamento entre os itens da nav*/
+    font-weight: bold; 
+
+}
+
+a{
+    text-decoration: none;  /*Decora o texto*/
+    color: #FFFFFF;  /* altera a cor do texto*/
+}
+
+.branco{
+    color: #FFFFFF;  /* altera a cor do texto*/
+}
+
+.vermelho{
+    color: #CF092D; /*Define a coe do texto*/
+}
+
+.FECAF{
+    font-family: "Montserrat";
+    font-size: 30px; 
+    color: #CF092D;
+    font-weight: bold;  /*DEIXA A FONTE EM NEGRITO*/
+}
+
+.MUSIC{
+    font-family: "Montserrat";/*Define a fonte utilizada*/
+    font-size: 30px; /*Define o tamanho da fonte*/
+    color: #FFFFFF;  /* altera a cor do texto*/
+    margin-right: 185px; /*Define a area de margem da caixa de texto*/
+}
+
+.HELP{
+    font-family: "Montserrat";
+    margin-left: 150px;/*define as dimensões da margem esquerda (distância do elemento para o elemento conseguinte)*/
+    font-weight: bold;  /*DEIXA A FONTE EM NEGRITO*/
+}
+
+.CREATEANACCOUNT {
+    font-family: "Montserrat";
+    color: #CF092D;
+    font-weight: bold;  /*DEIXA A FONTE EM NEGRITO*/
+}
+
+main{
+    font-family: "Montserrat";
+    background-color: #01041B;
+    display: flex; /* Indica a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    flex-direction: row;  /*Alinha os itens longo do eixo principal*/
+    height: 80vh; /*Altura*/
+    width: 100vw; /*Largura*/
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;  /*DEIXA A FONTE EM NEGRITO*/
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;  /*DEIXA A FONTE EM NEGRITO*/
+}
+
+.DOWNLOADNOW{
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-left: 50px;
+    padding: 17.33px 20.66px 17.33px 20.66px;
+    border-radius: 45.19px 45.19px 45.19px 45.19px;
+    opacity: 180px;
+    background: #CF092D;
+}
+
+.STARTFREETRIAL{
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-left: 50px;
+    padding: 17.33px 20.66px 17.33px 20.66px;  /*altura e largura da caixa do botao*/
+    border-radius: 45.19px 45.19px 45.19px 45.19px;  /*arredondamento da borda do botao*/
+    opacity: 180px;
+    background: #410093;
+    ;
+}
+
+.img{
+    width: 500px; /*Largura*/
+    height: 500px; /*Altura*/
+}
+
+.COPYRIGHT{
+    margin-top: 10px;  /*Margem do topo */
+}
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    display: flex; /*Indica a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    flex-direction: column;  /*Alinha os itens longo do eixo principal*/
+    align-items: center; /*Alinha os itens*/
+    height: 10vh; /*Alinha altura*/
+    background-color: #05072F;
+    ;
+}
